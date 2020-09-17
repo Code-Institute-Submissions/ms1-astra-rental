@@ -67,16 +67,18 @@ ul li a:hover {
     
 }
 
+/* start media upper block */
 
 @media screen and (max-width: 694px) {
     ul li a{
     display: inline;
     margin: 3px 0px 3px 0px;
-    height:30%;
     }
 
     ul {
         float: left;
+        margin-top: 21px;
+        margin-bottom: 15px;
     }
 
     .upper-block1 {
@@ -84,7 +86,7 @@ ul li a:hover {
     }
   }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 473px) {
     ul li a{
     display: block;
     margin: 3px 0px 3px 0px;
@@ -93,12 +95,17 @@ ul li a:hover {
 
     ul {
         float: left;
+        margin-top:5px;
+        margin-bottom: 4px;
+
     }
 
     .upper-block1 {
     display: inline;
     }
   }
+
+/* end media upper block */
 
 /* end upper fixed block */
 
