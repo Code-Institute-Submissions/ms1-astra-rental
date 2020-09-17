@@ -89,6 +89,7 @@ ul li a:hover {
 @media screen and (max-width: 473px) {
     ul li a{
     display: block;
+    padding: 1px 4px 1px 4px;
     margin: 3px 0px 3px 0px;
     height:30%;
     }
