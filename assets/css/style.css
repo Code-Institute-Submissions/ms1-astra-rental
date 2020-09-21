@@ -125,3 +125,92 @@ body {
 .block-divider--short {
     width: 135px;
 }
+
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--yellow {
+    color: rgb(26, 25, 25);
+    background-color: #fce807;
+    border-color: rgb(168, 143, 0);
+}
+
+.btn--yellow:hover,
+.btn--yellow:active,
+.btn--yellow:focus,
+.btn--yellow:active:focus {
+    background-color: #000000;
+    border-color:#69605e; 
+    color: yellow;
+}
+
+
+/* Alert */
+
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert {
+    color: #544600;
+    background-color: #eec802;
+    border-color: #eec802;
+    padding: 5px 15px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 0;
+}
+
+
+/* Page Headers */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+
+/* reviews */
+
+.reviews .page-header {
+    margin-bottom: 25px;
+}
+
+/* Features */
+
+.feature {
+    text-align: center;
+    font-family: lato;
+}
+
+.feature i {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    color: black;
+}
+
+/* end features*/
