@@ -387,3 +387,14 @@ transform: rotate(-40deg);
 
 /* end Location */
 
+
+/* WORK IN PROGRESS PAGE */
+
+  .wip-message {
+  width: 100%;
+  height: auto;
+  margin-top: 10%;
+  }
+
+
+/* end WORK IN PROGRESS PAGE */
