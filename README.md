@@ -1,6 +1,6 @@
 <h1 align="center">Code Institute Website</h1>
 
-[View the live project here.](https://simocaso.github.io/ms1-astra-rental/index.html)
+[View the live project here.](https://simocaso.github.io/ms1-astra-rental/)
 
 or here : https://motocross-rental-bike--simonecasoni.repl.co/index.html 
 
