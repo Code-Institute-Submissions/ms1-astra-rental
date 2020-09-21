@@ -131,6 +131,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
+-  A big thanks to my code Institute mentors' website (projects like "love running" and "whiskey drop shipping") for have inspired my website!
+
 ### Content
 
 -   All content was written by the developer.
