@@ -103,3 +103,25 @@ body {
     margin-top: 70px;
  } 
 }
+
+
+/* Block dividers */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+}
+
+.block-divider--yellow {
+    background-color: #ffe100;
+}
+
+.block-divider--white {
+    background-color: white;
+}
+
+.block-divider--short {
+    width: 135px;
+}
