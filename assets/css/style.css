@@ -67,6 +67,10 @@ ul li a:hover {
     
 }
 
+.image1 { 
+    width: 100vw !important;      
+}
+
 /* start media upper block */
 
 @media screen and (max-width: 694px) {
@@ -86,6 +90,7 @@ ul li a:hover {
     }
   }
 
+
 @media screen and (max-width: 473px) {
     ul li a{
     display: block;
@@ -100,15 +105,10 @@ ul li a:hover {
         margin-bottom: 4px;
 
     }
-
-    .upper-block1 {
-    display: inline;
-    }
   }
 
 /* end media upper block */
 
 /* end upper fixed block */
-
 
 
