@@ -375,3 +375,15 @@ transform: rotate(-40deg);
 }
 
 /* end bikes box*/
+
+
+/* Location */
+
+.location-wrapper{
+  padding: 5%;
+  background-color: black;
+  color: white;
+}
+
+/* end Location */
+
