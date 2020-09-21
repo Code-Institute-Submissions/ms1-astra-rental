@@ -333,3 +333,45 @@ transform: rotate(-40deg);
 
 
 /* end contact form*/
+
+/* bikes box*/
+
+.bikes-box {
+  height:auto;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-top: 3%; 
+}
+
+.bikes-box img {
+  width:  inherit;
+}
+
+.bikes-p {
+  font-weight: bold;
+  font-size: 120%;
+}
+
+.bg-white {
+  padding: 0px;
+}
+
+.bikes-price {
+  font-size: 120%;
+}
+
+@media screen and (max-width: 768px) {
+  .bikes-box img {
+  transform: scale(0.8,0.8);
+  }
+
+  .bikes-box p {
+  font-size: 70%;
+  }
+  .bikes-price {
+  font-size: 100% !important;
+
+}
+}
+
+/* end bikes box*/
