@@ -1,114 +1,74 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
 
-* {
-    margin: 0;
-    padding: 0;
+body {
+    font-family: Oswald;
+}
+
+/* Containers */
+
+.container-wrapper--black {
+    background-color: black;
+    color: white;
+}
+
+.callout-container {
+    height: 100vh;
+    background: url('../images/cross-background.jpg') no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+/* Navbar */
+
+.navalert-container {
+    position: absolute;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .95);
+    border: 0;
+    text-transform: uppercase;    
+}
+
+.navbar .navbar-toggler {
     border: 0;
 }
 
-body {
-    font-family: Lato;
-    color: #ffffff;
+.navbar .navbar-brand {
+    font-weight: bold;
 }
 
-/* start upper fixed block */
-
-ul {
-    margin: 25px;
-    float: right;
-    list-style-type: none;
-    padding: 0;
+.navbar .navbar-nav a {
+    font-weight: bold;
 }
-
-ul li {
-    display: inline;
-}
-
-ul li a{ 
-    margin-right: 10px;
-    text-decoration: none;
-    font-family: Oswald;
-    text-transform: uppercase;
-    color: #ffffff;
-    padding: 5px 15px;
-    border: 1px solid white;
-    transition: 0.3s ease-in-out;
-}
-
-ul li a:hover {
-    background-color: #fff;
-    color: #000;
-}
-
-#active {
-    color: #ffffff;
-    font-family: Oswald;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-
-}
-
-.upper-block1 {
-    display: inline;
-    position: fixed;
-    z-index: 6;
-    width: 100%;
-    background-color: black;
-    margin: auto;
-}
-
-.logo {
-    color: #ffffff;
-    float: left;
-    font-size: 250%;
-    text-transform: uppercase;
-    margin-left: 30px;
-    clear: both;
-    
-}
-
-.image1 { 
-    width: 100vw !important;      
-}
-
-/* start media upper block */
-
-@media screen and (max-width: 694px) {
-    ul li a{
-    display: inline;
-    margin: 3px 0px 3px 0px;
-    }
-
-    ul {
-        float: left;
-        margin-top: 21px;
-        margin-bottom: 15px;
-    }
-
-    .upper-block1 {
-    display: inline;
-    }
-  }
-
-
-@media screen and (max-width: 473px) {
-    ul li a{
-    display: block;
-    padding: 1px 4px 1px 4px;
-    margin: 3px 0px 3px 0px;
-    height:30%;
-    }
-
-    ul {
-        float: left;
-        margin-top:5px;
-        margin-bottom: 4px;
-
-    }
-  }
-
-/* end media upper block */
-
-/* end upper fixed block */
 
 
